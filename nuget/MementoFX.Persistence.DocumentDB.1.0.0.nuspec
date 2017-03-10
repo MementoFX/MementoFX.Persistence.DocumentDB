@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>MementoFX.Persistence.DocumentDB</id>
+        <version>1.0.0</version>
+        <title>MementoFX DocumentDB</title>
+        <authors>Mastreeno ltd</authors>
+        <owners>Mastreeno ltd</owners>
+        <licenseUrl>http://www.mastreeno.com/license/evaluation</licenseUrl>
+        <projectUrl>http://mementofx.mastreeno.com</projectUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>A DocumentDB powered event store for MementoFX</description>
+        <copyright>Copyright 2016 Mastreeno ltd. All rights reserved</copyright>
+        <tags>mementofx memento documentdb event store cqrs ddd</tags>
+        <dependencies>
+            <dependency id="MementoFX" version="1.0.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Memento.Persistence.DocumentDB.dll" target="lib\net452\Memento.Persistence.DocumentDB.dll" />
+        <file src="Memento.Persistence.DocumentDB.pdb" target="lib\net452\Memento.Persistence.DocumentDB.pdb" />
+        <file src="Memento.Persistence.DocumentDB.XML" target="lib\net452\Memento.Persistence.DocumentDB.XML" />
+    </files>
+</package>
