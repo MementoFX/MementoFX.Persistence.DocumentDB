@@ -7,10 +7,11 @@
     <ProjectGuid>{C6DC40B3-578B-48E1-99E2-450E76DBA496}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Memento.Persistence.DocumentDB</RootNamespace>
-    <AssemblyName>Memento.Persistence.DocumentDB</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>MementoFX.Persistence.DocumentDB</RootNamespace>
+    <AssemblyName>MementoFX.Persistence.DocumentDB</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -20,7 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Memento.Persistence.DocumentDB.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\MementoFX.Persistence.DocumentDB.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -29,7 +30,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Memento.Persistence.DocumentDB.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\MementoFX.Persistence.DocumentDB.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
@@ -38,9 +39,8 @@
     <AssemblyOriginatorKeyFile>MementoFX.Persistence.DocumentDB.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Memento, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bca5f6a4d14d06d8, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\MementoFX.1.0.0\lib\net452\Memento.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="MementoFX, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MementoFX.2.0.0-pre6\lib\netstandard2.0\MementoFX.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

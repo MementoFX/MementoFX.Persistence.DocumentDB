@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Memento.Persistence.DocumentDB")]
+[assembly: AssemblyTitle("MementoFX.Persistence.DocumentDB")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Memento.Persistence.DocumentDB")]
-[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyCompany("Managed Designs")]
+[assembly: AssemblyProduct("MementoFX")]
+[assembly: AssemblyCopyright("© 2013-2018 Andrea Saltarello, Managed Designs")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

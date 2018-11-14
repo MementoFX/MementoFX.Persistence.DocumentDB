@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.Persistence.DocumentDB", "src\Memento.Persistence.DocumentDB\Memento.Persistence.DocumentDB.csproj", "{C6DC40B3-578B-48E1-99E2-450E76DBA496}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoFX.Persistence.DocumentDB", "src\Memento.Persistence.DocumentDB\MementoFX.Persistence.DocumentDB.csproj", "{C6DC40B3-578B-48E1-99E2-450E76DBA496}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.Persistence.DocumentDB.Tests", "src\Memento.Persistence.DocumentDB.Tests\Memento.Persistence.DocumentDB.Tests.csproj", "{6F5AA35F-CB0E-4F77-AF37-9EAD6A0B4D4E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoFX.Persistence.DocumentDB.Tests", "src\Memento.Persistence.DocumentDB.Tests\MementoFX.Persistence.DocumentDB.Tests.csproj", "{6F5AA35F-CB0E-4F77-AF37-9EAD6A0B4D4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95777702-0B5C-49B7-8491-7041A9EADC7A}
 	EndGlobalSection
 EndGlobal

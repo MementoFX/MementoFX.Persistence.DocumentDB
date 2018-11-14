@@ -6,9 +6,9 @@
     <ProjectGuid>{6F5AA35F-CB0E-4F77-AF37-9EAD6A0B4D4E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Memento.Persistence.DocumentDB.Tests</RootNamespace>
-    <AssemblyName>Memento.Persistence.DocumentDB.Tests</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>MementoFX.Persistence.DocumentDB.Tests</RootNamespace>
+    <AssemblyName>MementoFX.Persistence.DocumentDB.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -16,6 +16,7 @@
     <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
     <IsCodedUITest>False</IsCodedUITest>
     <TestProjectType>UnitTest</TestProjectType>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -25,7 +26,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Memento.Persistence.DocumentDB.Tests.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\MementoFX.Persistence.DocumentDB.Tests.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -34,13 +35,13 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Memento.Persistence.DocumentDB.Tests.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\MementoFX.Persistence.DocumentDB.Tests.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Memento, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bca5f6a4d14d06d8, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\MementoFX.1.0.0\lib\net452\Memento.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="MementoFX, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MementoFX.2.0.0-pre6\lib\netstandard2.0\MementoFX.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
   </ItemGroup>
   <Choose>
@@ -59,9 +60,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Memento.Persistence.DocumentDB\Memento.Persistence.DocumentDB.csproj">
+    <ProjectReference Include="..\Memento.Persistence.DocumentDB\MementoFX.Persistence.DocumentDB.csproj">
       <Project>{c6dc40b3-578b-48e1-99e2-450e76dba496}</Project>
-      <Name>Memento.Persistence.DocumentDB</Name>
+      <Name>MementoFX.Persistence.DocumentDB</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
